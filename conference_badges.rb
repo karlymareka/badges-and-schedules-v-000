@@ -33,7 +33,8 @@ def printer(attendees)
     number += 1
   end
 end
-=end 
+=end
+end 
 
 attendees = ["Karly", "Matt", "Ariel", "Adelia",]
 printer(attendees)
