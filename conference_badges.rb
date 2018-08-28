@@ -21,6 +21,8 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
+  batch_badge_creator(attendees)
+=begin 
   print_names = []
   print_names << batch_badge_creator(attendees)
   print_rooms = []
@@ -31,6 +33,7 @@ def printer(attendees)
     number += 1
   end
 end
+=end 
 
 attendees = ["Karly", "Matt", "Ariel", "Adelia",]
 printer(attendees)
