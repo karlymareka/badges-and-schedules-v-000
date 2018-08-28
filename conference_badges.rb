@@ -21,6 +21,7 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
+  number = 0 
   batch_badge_creator(attendees).each do |label|
     puts label + assign_rooms[number]
 =begin 
